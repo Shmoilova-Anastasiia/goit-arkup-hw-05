@@ -273,6 +273,34 @@ justify-content: center;
     display: flex;
     gap:30px;
     }
+.list-item-work{
+    position: relative;
+    width: 370px;
+}
+.overlay-work{
+    position: absolute;
+width: 100%;
+bottom: 0;
+padding-top: 27px;
+padding-bottom: 27px;
+background-color: rgba(47, 48, 58, 0.8);;
+
+}
+.overlay-work:hover,
+.overlay-work:focus{
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.overlay-work-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color-light);
+    
+}
     
     /*--------OUR TEAM--------*/
     .ourteam{
@@ -294,7 +322,7 @@ justify-content: center;
     padding-bottom: 30px; 
     align-items: center;
         justify-content: center;
-        background-color: #FFFFFF;
+        background-color: var(--text-color-light);
     }
     .list-item-ourteam{
         width: 270px;
@@ -348,7 +376,7 @@ justify-content: center;
     .link-link:hover,
     .link-link:focus{
         background-color: var(--accent-color);
-        color: #FFFFFF;
+        color: var(--text-color-light);
     }
 
     .icon-team{
@@ -442,10 +470,10 @@ color:#2196F3;
         
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--text-color-light);
     }
     .list-join{
         display: flex;
